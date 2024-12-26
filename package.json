@@ -43,9 +43,9 @@
     "zustand": "^4.5.2"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "export": "next export",
     "lint": "next lint",
     "predeploy": "yarn run build",
